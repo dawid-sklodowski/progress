@@ -1,0 +1,10 @@
+GET /progress.js HTTP/1.1
+Host: localhost:2000
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:10.0.1) Gecko/20100101 Firefox/10.0.1
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:2000/
+Cache-Control: max-age=0
+

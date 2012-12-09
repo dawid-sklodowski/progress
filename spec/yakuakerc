@@ -1,0 +1,32 @@
+[Animation]
+Frames=0
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Shortcuts]
+edit-profile=Shift+F2
+new-session=Ctrl+Shift+T
+next-session=Ctrl+PgDown
+previous-session=Ctrl+PgUp
+split-top-bottom=none
+switch-to-session-1=Alt+1
+switch-to-session-10=Alt+0
+switch-to-session-2=Alt+2
+switch-to-session-3=Alt+3
+switch-to-session-4=Alt+4
+switch-to-session-5=Alt+5
+switch-to-session-6=Alt+6
+switch-to-session-7=Alt+7
+switch-to-session-8=Alt+8
+
+[Window]
+DynamicTabTitles=true
+Height=90
+ShowOnAllDesktops=false

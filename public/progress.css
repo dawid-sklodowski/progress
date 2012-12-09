@@ -1,0 +1,65 @@
+.progress-container {
+  background: #eee;
+  border: 1px solid #222;
+  margin: 6px 0 6px 124px;
+  width: 300px;
+  position: relative;
+  border-radius: 6px;
+}
+.progress-bar {
+  background: #43ABF0;
+  background-image: linear-gradient(top, rgb(67,171,240) 10%, rgb(199,227,245) 52%, rgb(122,197,255) 88%);
+  background-image: -o-linear-gradient(top, rgb(67,171,240) 10%, rgb(199,227,245) 52%, rgb(122,197,255) 88%);
+  background-image: -moz-linear-gradient(top, rgb(67,171,240) 10%, rgb(199,227,245) 52%, rgb(122,197,255) 88%);
+  background-image: -webkit-linear-gradient(top, rgb(67,171,240) 10%, rgb(199,227,245) 52%, rgb(122,197,255) 88%);
+  background-image: -ms-linear-gradient(top, rgb(67,171,240) 10%, rgb(199,227,245) 52%, rgb(122,197,255) 88%);
+  width: 0px;
+  height: 24px;
+  width: 0;
+  border-radius: 6px;
+}
+.percents {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+}
+.label {
+  float: left;
+  width: 120px;
+  text-align: right;
+  padding-right: 6px;
+}
+input, .label {
+  margin: 6px 0;
+}
+.file-path {
+  margin: 0 0 0 124px;
+  padding: 6px 0 0 0;
+}
+.saved-file, .progress, .title .saved {
+  display: none;
+}
+.title .saved {
+  color: green;
+}
+
+.button {
+  border-radius: 6px;
+  background: #89ff89;
+  padding: 3px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.save-button {
+  display: none;
+}
+.button:hover, .:hover {
+  background: #aaffaa;
+  color: red;
+}
+.cf {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 1%;
+}

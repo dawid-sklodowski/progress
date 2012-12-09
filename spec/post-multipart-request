@@ -1,0 +1,53 @@
+POST /file?upload_id=1 HTTP/1.1
+Host: localhost:2000
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:10.0.1) Gecko/20100101 Firefox/10.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:2000/
+Content-Type: multipart/form-data; boundary=---------------------------6919235361821366819326305517
+Content-Length: 905
+
+-----------------------------6919235361821366819326305517
+Content-Disposition: form-data; name="file"; filename="yakuakerc"
+Content-Type: application/octet-stream
+
+[Animation]
+Frames=0
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Shortcuts]
+edit-profile=Shift+F2
+new-session=Ctrl+Shift+T
+next-session=Ctrl+PgDown
+previous-session=Ctrl+PgUp
+split-top-bottom=none
+switch-to-session-1=Alt+1
+switch-to-session-10=Alt+0
+switch-to-session-2=Alt+2
+switch-to-session-3=Alt+3
+switch-to-session-4=Alt+4
+switch-to-session-5=Alt+5
+switch-to-session-6=Alt+6
+switch-to-session-7=Alt+7
+switch-to-session-8=Alt+8
+
+[Window]
+DynamicTabTitles=true
+Height=90
+ShowOnAllDesktops=false
+
+-----------------------------6919235361821366819326305517
+Content-Disposition: form-data; name="upload_id"
+
+1
+-----------------------------6919235361821366819326305517--

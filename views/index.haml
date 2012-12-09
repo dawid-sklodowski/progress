@@ -1,0 +1,36 @@
+!!!
+%html
+  %head
+    %script{:src=>'/jquery-1.7.1.min.js'}
+    %script{:src=>'/progress.js'}
+    %link{:href=>"/progress.css",:media=>"screen", :rel=>"stylesheet", :type=>"text/css"}
+
+  %body
+    %h1 Multipart Form Upload with Progress
+    .uploads-container
+      .upload
+        .title
+          %form{:action=>'/save', :method=>'post'}
+            .label Title:
+            %input{:name=>'title', :type=>'text'}
+            %span.saved Saved
+            %a.button.save-button{:href=>'#'} Save
+            .cf
+        .file
+          %form{:enctype=>"multipart/form-data", :action=>"/file", :method=>"post"}
+            .label Select File:
+            %input{:name=>"file", :type=>"file"}
+            %input{:type=>'hidden', :name=>'upload_id', :value=>upload_id}
+            .cf
+        .progress
+          .label Progress:
+          .progress-container
+            .progress-bar &nbsp
+            .percents
+          .cf
+        .saved-file
+          .label Saved File:
+          .file-path
+          .cf
+        %hr
+    %a.button.new-upload{:href=>'#'} New Upload
