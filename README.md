@@ -11,4 +11,4 @@ Run it with executable: ``` server.rb ```
 
 It binds itself to port 2000 and listens there.
 
-Copyright (c) 2011 [Lean Logics](http://leanlogics.com), released under the MIT license
+Copyright (c) 2012 [Lean Logics](http://leanlogics.com), released under the MIT license
